@@ -93,3 +93,37 @@
 # and (both)
 # or (at least one)
 # not (opposite)
+
+#----------------------
+#if statement
+
+# temp=5
+
+# if(temp>30):
+#     print("It's hot outside")
+# elif(temp>20):
+#     print("It's warm outside")
+# elif(temp>10):
+#     print("It's mild outside")
+# else:
+#     print("temp is cold")
+
+#------------------------------------
+
+#exercise
+
+# weight = float(input("Enter your weight: "))
+# weight_in_kg_or_lbs= input("(k)g or(L)bs: ")
+
+# if(weight_in_kg_or_lbs == "K" and "k"):
+#     print("Weight in Kg: " + weight_in_kg_or_lbs)
+
+# weight= int(input("weight: "))
+# unit = input("(k)g or (L)bs: ")
+
+# if unit.upper() == 'K':
+#     converted = weight/ 0.45
+#     print("weight in lbs: "+ str(converted))
+# else:
+#     converted = weight * 0.45
+#     print("weight in kg: " + str(converted))
