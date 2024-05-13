@@ -127,3 +127,77 @@
 # else:
 #     converted = weight * 0.45
 #     print("weight in kg: " + str(converted))
+
+
+#--------------------------
+#while
+
+# i=1
+# while i<=5:
+#     print(i)
+#     i+=1
+
+
+# i=1
+# while i<=5:
+#     print(i*"*")
+#     i+=1
+
+#===============
+#list
+
+# 1- number
+# 1.1 - float
+# True - boolen
+# "a" - string 
+
+# primative datatype or basic datatype
+
+# name = ["john","bob","Mosh"]
+# # name[0]="joh"
+# # print(name)
+# # print(name[0])
+# # print(name[-1])
+
+# print(name[0:2])
+
+
+#list method
+
+# numbers=[1,2,3,4,5]
+# numbers.append(6)
+# numbers.insert(0,-1) #insert(index,value) to insert in between
+# numbers.remove(3)
+# print(1 in numbers)
+# print(numbers)
+# print(len(numbers))
+
+#---------------------
+#for Loop
+
+numbers=[1,2,3,4,5]
+
+# for items in numbers:
+#     print(items)
+
+# i=0
+# while i <len(numbers):
+#     print(numbers[i])
+#     i=i+1
+
+#-------------------
+#range() function
+
+# numbers=range(5)
+# print(numbers)
+
+# numbers= range(1,10,2)
+
+# for number in numbers:
+#     print(number)
+
+#------------------------
+
+#tuples
+
+# numbers =(1,2,3)
