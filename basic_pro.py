@@ -24,7 +24,7 @@
 
 #-------------------------------------
 
-#palindrome number
+#palindrome string
 
 # name="madam"
 # name = input("enter the value: ")
@@ -35,6 +35,27 @@
 # else:
 #     print("not palindrome")
 
+#palindrome number
+
+num =121
+
+temp = num
+reverse =0
+
+while(num>0):
+    dig = num%10
+    reverse = reverse*10 +dig
+    num = num//10
+
+if temp == reverse:
+    print("palindrome")
+else:
+    print("not palindrome")
+
+
+
+
+
 
 #-----------------------------------
 
@@ -42,4 +63,5 @@
 # name = input("enter the value: ")
 # reverse =name[::-1]
 # print(reverse)
+
 
