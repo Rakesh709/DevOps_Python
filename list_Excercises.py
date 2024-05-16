@@ -58,3 +58,49 @@
 #         return "num2 is bigger"
 
 # print(max_finder(-9,-6))
+
+#-------------------------------------------------
+
+#reverse of list
+
+# list = [4, 5, 6, 7, 8, 9]
+
+# print(list[::-1])
+# new_list= list.reverse()
+# print(list)
+
+
+#sume od element
+
+# elem = [1,2,3]
+# product=1
+# for i in elem:
+#     product*=i
+# print(product)
+
+
+#-------------------------------------------------
+
+#smallest number in a list
+
+# elem = [11,2,3]
+
+# elem.sort()
+# print(elem[0])
+
+# small= elem[0]
+
+# for i in range(len(elem)):
+#     if elem[i] <small:
+#         small=elem[i]
+# print(small)
+
+
+#Find Largest Number in a List
+
+elem = [11,2,3]
+
+# elem.sort()
+# print(elem[-1])
+
+

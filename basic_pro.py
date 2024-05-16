@@ -37,7 +37,7 @@
 
 #palindrome number
 
-num =121
+num =1521
 
 temp = num
 reverse =0
